@@ -12,11 +12,10 @@ body{
 }
 
 /* Make the images cover the entire viewport*/
-.header-photo{
+.header-photo img{
     margin-top: 50px;
     width: 100%;
-    height: 700px;
-    background-image: url(rex\ image/1.Png);
+    height: 1000px;
     background-size: cover;
 
 }
@@ -111,7 +110,7 @@ h2,h3{
     justify-content: center;
     align-content: center;
     display: flex;
-    margin-left: 550px;
+    margin-left: 750px;
 }
 
 /*up botton*/
