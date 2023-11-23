@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" lang="JP">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Rex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&
+    family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>RE:Xヲタ芸</title>
+</head>
+
+<body>
+    <img src="" class="logo-image">
+    <header>
+        <nav>
+            <a href="#info">ホーム</a>
+            <a href="#rex-info">Re:X・ヲタ芸とは</a>
+            <a href="#leader">リーダーの紹介</a>
+        </nav>
+        <div class="header-photo"></div>
+    </header>
+    <section id="info" class="translate">
+        <P>
+            Re:Xは11人で活動しているヲタ芸(サイリウムダンス)グループです。活動は、豊洲などで撮影した動画をYouTubeに投稿しています。<br>
+            ヲタ芸(サイリウムダンス)とは、サイリウム(折ると光る棒)を持ち、<br>
+            曲に合わせて技を披露するものです。<br>
+            詳しい説明や技については、文章で説明するより見てもらった方が分かりやすいので、<br>
+            興味のある方はぜひYouTubeで「ヲタ芸」と検索してみてください。<br>
+            <br>
+            【We also have a English version site. 】<br<>
+            Click <a href="REx english.html" target="_blank">here</a> to access the English version.
+        </P>
+    </section>
+
+    <section id="rex-info" class="translate">
+        <h1>Re:X・ヲタ芸とは</h1>
+        <h2>Re:Xとは</h2>
+        <p>
+            <img src="rex image/002.jpg" class="right-image">
+            Re:Xは2020年にできたヲタ芸チームです。主に動画投稿サイトYouTubeに動画を投稿し活動しています。
+            チームはリーダーである「へんなイカ」を中心にメンバーが11名おり、その他にもサポート3名がいます。
+            Re:X自体は主に東京を中心に豊洲・錦糸町で撮影を行っています。
+            動画は月に一本ペースで上げており、動画の中にはRe:Xのメンバーだけでなく外部の方や、
+            他のチームと協力し撮影した物もあります。皆さんぜひRe:Xの動画をご覧ください。
+            <br>
+            <br>
+        </p>
+
+        <h3> ヲタ芸とは</h3>
+        <p>
+            ヲタ芸とは、2009年頃に誕生したサイリウムを使ったダンスのことです。
+            外国ではサイリウムダンスとして広まっています。
+            <img src="rex image/003.jpg" class="left-image">
+            ヲタ芸は自分の好きな曲やその時の話題の曲などを
+            使っています。そして、選んだ曲のイメージなどに合わせて「技」と言われる物を構成し、
+            サイリウムの色を決めて踊ります。<br>
+            
+            <br>
+            <span class="gap-0"></span> さらに技は自分で作ることも可能でそれらをTwitterなどにアップロードし他のチームや個人が使う事もあります。
+            ヲタ芸は日本国内だけの文化ではありません。ヲタ芸自体は日本発祥の文化です。<br>
+            <br>
+            <span class="gap-0"></span>今はアメリカ、中国、韓国、台湾、フィリピン、シンガポールなど、世界にわたってその知名度を上げています。
+            ヲタ芸を始めるのは難しそうと感じるかもしれませんが、YouTube上では様々なプロのチームが技の動き
+            を解説した物や技と技のつなぎ方など、
+            初心者向けの動画を上げています。興味あるかたはぜひ始めてみてはいかがでしょうか。
+        </p>
+    </section>
+
+
+    <section id="leader" class="translate">
+            <h1>リーダーの紹介</h1>
+            <P>
+                <img src="rex image/leader.jpg" class="leader-photo">
+                RE:Xのリーダーをやっていますヘンなイカと申します。現在はRe:X[レックス]のYOUTUBE
+                チャンネルを活動しています。RE:Xのリーダーそして動画への出演、動画の構成、編集など
+                を行っています。YOUTUBEで動画だけではなく時々YOUTUBEシュートでNG動画や基本的にリーダーの案である
+                など動画も上げています。RE:Xでは個性豊かなメンバーが集まっているためリーダーの自分が最も個性的で
+                チームのリーダーそして「ヘンなイカ」を表しています。
+            </P>
+    </section>
+
+    <button onclick="topFunction()" id="mybtn" title="Go To Top">
+        <img src="rex image/up arrow.png" alt="Up-Arrow">
+    </button>
+
+    <script src="Rex.js"></script>
+    
+    <footer>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/@rex6688/featured" target="_blank" title="YOUTUBE"><img src="rex image/youtube.png" alt="YOUTUBE" class="social-link"></a>
+                    <a href="https://twitter.com/ReXa283a283" target="_blank" title="X"><img src="rex image/twitter.png" alt="Twitter" class="social-link"></a>
+                </li>
+            </ul>
+        </div>
+        <small>©RE:X<span id="year"></span>All right reserved</small>
+    </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>
